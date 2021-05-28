@@ -114,3 +114,25 @@ body {
 .movie__info-rating_red {
     border: 1px solid red;
 }
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.paginationEl {
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.paginationEl.active {
+    color: #fae04c;
+}
+
+.whiteDots {
+    color: #ffffff;
+}
